@@ -1,0 +1,280 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+  :root {
+    --navbar-height: 0px;
+    --header-height: 68px;
+  }
+  .hide-on-mobile-tablet {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    height: 104px;
+    background-color: #555;
+    position: relative;
+    display: block;
+    padding: 0;
+    align-items: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo {
+    cursor: pointer;
+  }
+  .option {
+    cursor: pointer;
+    margin-top: 10px;
+    right: unset;
+    position: unset;
+  }
+  .background {
+    padding: 580px 0;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.1)
+      ),
+      url("./img/anh-dep-cau-rong-da-nang1.jpg");
+  }
+  .background__text {
+    top: 23%;
+  }
+  .background__text-title {
+    letter-spacing: 2px;
+  }
+  .background__text-find {
+    width: 94%;
+  }
+  .background__text-find-icon {
+    right: 34px;
+  }
+  .background__feature {
+    height: unset;
+    width: 666px;
+    top: 44%;
+  }
+  .background__feature-list {
+    display: block;
+  }
+  .background__feature-item {
+    width: unset;
+    margin-bottom: 28px;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  .options-header {
+    height: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .options-header__text {
+    padding-left: 30px;
+  }
+  .options-header__btn {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .options-body {
+    display: block;
+    margin: 76px 24px;
+  }
+  .options-body__slider {
+    margin-top: 42px;
+  }
+  .options-body__slider-count-down {
+    width: 100%;
+  }
+  .options-footer {
+    margin-top: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .options-footer-choice {
+    margin-left: 24px;
+  }
+  .options-footer-text-btn {
+    margin-bottom: 24px;
+  }
+  .discover {
+    display: block;
+  }
+  .discover-item {
+    width: 100%;
+  }
+  .promotion__body {
+    margin-top: 28px;
+  }
+  .promotion__body-item {
+    margin-top: 32px;
+  }
+  .promotion__body-item-background {
+    height: var(--promotion-image-tablet-height);
+  }
+  .promotion__body-item-icon {
+    top: calc(var(--promotion-image-tablet-height) - 25px);
+  }
+  .footer__header-input {
+    width: 70%;
+  }
+  .footer__header-btn {
+    width: 30%;
+  }
+  .footer__text-info {
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 40px;
+    margin-top: 10px;
+  }
+  .footer__text-copyright {
+    justify-content: space-evenly;
+    height: 75px;
+    flex-direction: column;
+  }
+  .option__navbar {
+    display: none;
+  }
+  #option__click:checked ~ .option__navbar-mobile-tablet {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .header {
+    height: 120px;
+  }
+  .background {
+    padding: 690px 0;
+  }
+  .background__text {
+    top: 20%;
+  }
+  .background__text-title {
+    line-height: 55px;
+    padding: 0 48px;
+    letter-spacing: 1.4px;
+  }
+  .background__text-check {
+    padding: 0 48px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    letter-spacing: 3px;
+  }
+  .background__text-find {
+    width: 80%;
+  }
+  .background__text-find-icon {
+    right: 46px;
+  }
+  .background__feature-list {
+    margin-top: 78px;
+    width: 240px;
+    text-align: center;
+  }
+  .background__feature-item {
+    width: 240px;
+    height: 104px;
+  }
+  .background__feature {
+    top: 43%;
+    width: unset;
+  }
+  .proposal-text-2 {
+    margin-top: 18px;
+    line-height: 40px;
+    padding: 0 7px;
+  }
+  .options-header {
+    height: 360px;
+  }
+  .options-header__text {
+    padding-left: 50px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+  }
+  .options-header__text div a::after {
+    bottom: 18px;
+  }
+  .options-header__text div a {
+    display: block;
+    line-height: 88px;
+  }
+  .options-body {
+    margin: 76px 54px;
+  }
+  .options-body__text-type {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  .options-body__text-type a {
+    line-height: 53px;
+    letter-spacing: 2.8px;
+  }
+  .options-body__text-desc {
+    letter-spacing: 1px;
+    padding: 0px 2px;
+  }
+  .options-body__text-price {
+    line-height: 35px;
+    padding: 32px 0;
+  }
+  .options-body__slider {
+    height: 140px;
+  }
+  .options-body__slider-count-down {
+    top: 140px;
+    height: 456px;
+    bottom: unset;
+  }
+  .options-body__slider-count-down-list {
+    display: block;
+    margin: 0;
+  }
+  .options-body__slider-count-down-item {
+    border-bottom: 1px solid #fafafa;
+  }
+  .options-footer {
+    margin-top: 522px;
+  }
+  .options-footer-choice {
+    padding-left: 38px;
+    padding-right: 52px;
+    margin-left: 0;
+  }
+  .footer__header-text-1 {
+    margin-left: 55px;
+  }
+  .footer__header-text-2 {
+    text-align: center;
+  }
+  .footer__header-input-send {
+    display: block;
+    text-align: center;
+  }
+  .footer__header-btn {
+    margin-left: 0;
+    width: 70%;
+    margin-top: 4px;
+  }
+  .container {
+    width: 70%;
+  }
+  .footer__text-copyright {
+    text-align: center;
+    height: 128px;
+  }
+}
